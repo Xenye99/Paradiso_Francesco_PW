@@ -1,2 +1,2 @@
 # ProjectWork
-ProjectWork UniPegaso, template singla pagina web per scaricare un documento in pdf utilizzando HTML e CSS
+ProjectWork UniPegaso, template singola pagina web per scaricare un documento in pdf utilizzando HTML e CSS
