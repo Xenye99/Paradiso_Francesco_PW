@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrero Sustainability</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menù selezione pagina -->
+    <header class="main-header">
+        <div class="ferrero-menu" aria-label="Menu di navigazione">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div style="position: relative; display: flex; justify-content: space-around; align-items: center; padding: 10px;">
+            <a href="#report-sostenibilita" class="menu-button">Report Sostenibilità</a>
+            <a href="#nostri-prodotti" class="menu-button">I prodotti più famosi</a>
+            <a href="#La-Storia" class="menu-button">La Storia</a>
+            <a href="#valori" class="menu-button">Obiettivi 2030</a>
+        </div>        
+    </header>
+    <!-- Download report di sostenibilità -->
+    <section id="report-sostenibilita" class="hero-section"> 
+        <div class="hero-content">
+            <h1 class="hero-title">QUALITÀ E SOSTENIBILITÀ</h1>
+            <p class="hero-subtitle">Innovazione Dolciaria</p>
+            <br><br>
+            <a href="Report/ferrero_csr_final_28524_4.pdf" class="download-button" download target="_blank">
+                Scarica qui l'ultimo Report di Sostenibilità
+            </a>
+            <br>
+            <div style="position: relative; display: inline-block; margin-top: 20px;">
+                <button class="dropdown-button" onclick="toggleDropdown()">Archivio Report di Sostenibilità</button>
+                <div id="dropdown" class="dropdown-menu">
+                    <a href="Report/Scarica 22.pdf" target="_blank" download>Report di Sostenibilità 2022 </a>
+                    <a href="Report/Scarica 21.pdf" target="_blank" download>Report di Sostenibilità 2021</a>
+                    <a href="Report/Scarica 20.pdf" target="_blank" download>Report di Sostenibilità 2020</a>
+                    <a href="Report/Scarica 19.pdf" target="_blank" download>Report di Sostenibilità 2019</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- I prodotti più famosi -->
+    <section id="nostri-prodotti" class="products-section">
+        <div class="products-container">
+            <img src="immagini/nutella_bready.png" alt="Nutella B-ready" class="product-image b-ready">
+            <img src="immagini/nutella_vegan.png" alt="Nutella Vegan" class="product-image vegan">
+            <img src="immagini/ferrero_rocher.png" alt="Ferrero Rocher Grand" class="product-image rocher">
+        </div>
+    </section>
+    <!-- La Storia dell'azienda Ferrero -->
+    <section id="La-Storia" class="history-section">
+        <h2 class="history-title">LA STORIA</h2>
+        <p class="history-text">
+            L'azienda italiana "Ferrero", fondata nel 1946 ad Alba (CN) da Pietro Ferrero, si è distinta sin da subito per l'attenzione ai dettagli e la passione  con cui crea i prodotti offrendo solo il meglio ai clienti. 
+            Questo impegno costante ha permesso la crescita ed anche la possibilità di diventare un punto di riferimento nel settore dolciario. La storia della Ferrero inizia con la creazione di una crema di nocciole, successivamente conosciuta poi come "Nutella".
+            Nel corso degli anni, l'Azienda ha ampliato la sua gamma di prodotti diventando uno dei principali produttori di cioccolato e di dolci al mondo. 
+            Oggi, la Ferrero è un'azienda globale con oltre 30.000 dipendenti e un fatturato annuo di oltre 12 miliardi di euro.
+        </p>
+    </section>
+    <!-- Inizio sezione Valori con le card -->
+    <section id="valori" class="values-section">
+        <div class="container">
+            <div class="values-header">
+                <h1>UNA CATENA DI VALORI</h1>
+                <p>Ruota i quattro pilastri, per scoprirli!</p>
+            </div>
+            <div class="image-grid">
+                <!-- Card 1 - Protezione ambiente -->
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="immagini/Protezione ambiente.jpg" alt="Protezione ambiente">
+                        </div>
+                        <div class="card-back">
+                            <div>
+                                <h3> Protezione dell'ambiente</h3>
+                                <p>Ferrero persegue i propri obiettivi attraverso misure mirate alla riduzione delle emissioni e al miglioramento dell'efficienza energetica:</p>
+                                <p>• Riduzione delle emissioni di gas serra (GHG):</p>
+                                <p>• Calo del 10% delle emissioni entro 2017/18</p>
+                                <p>• Obiettivo: -50% emissioni entro 2030</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 - Approvvigionamento sostenibile -->
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="immagini/approvvigionamento sostenibile.jpg" alt="Approvvigionamento sostenibile">
+                        </div>
+                        <div class="card-back">
+                            <div>
+                                <h3> Approvvigionamento sostenibile</h3>
+                                <p>Ferrero si concentra sulla creazione di una catena di approvvigionamento sostenibile che supporti gli agricoltori, protegga la biodiversità e garantisca la tracciabilità:</p>
+                                <p><b> TRACCIABILITÀ E CERTIFICAZIONI:</b></p>
+                                <p>• Il 90% delle nocciole è tracciabile fino al livello delle aziende agricole, mentre il 98% dell'olio di palma è tracciabile fino alle piantagioni.</p>
+                                <p>• Il 100% delle fave di cacao è acquistato tramite programmi di certificazione della sostenibilità.</p>
+                                <p><b> BIODIVERSITÀ E PREVENZIONE DELLA DEFORESTAZIONE:</b></p>
+                                <p>• Collaborazioni con Earthworm Foundation per proteggere le foreste e implementare pratiche agricole sostenibili.</p>
+                                <p><b> DIRITTI UMANI NELLE CATENE DI FORNITURA:</b></p>
+                                <p>• Programmi mirati a eliminare il lavoro minorile in Turchia e in Costa d’Avorio hanno raggiunto oltre 50.000 persone attraverso partnership con ONG come Save the Children.</p>
+                                <p><b> SVILUPPO DELLE COMUNITÀ AGRICOLE:</b></p>
+                                <p>• Iniziative per migliorare i mezzi di sussistenza degli agricoltori includono programmi educativi, migliori condizioni di lavoro e maggiori opportunità di reddito per i lavoratori agricoli.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 - Consumo responsabile -->
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="immagini/Consumo responasibile.jpg" alt="Consumo responsabile">
+                        </div>
+                        <div class="card-back">
+                            <div>
+                                <h3>Ferrero adotta un approccio proattivo al marketing responsabile e allo sviluppo dei prodotti:</h3>
+                                <p><b> Trasparenza dei prodotti:</b></p>
+                                <p>• Informazioni nutrizionali chiare e confezioni a porzioni controllate aiutano i consumatori a gestire responsabilmente il consumo energetico.</p>
+                                <p><b> Sicurezza alimentare:</b></p>
+                                <p>• Tutti gli stabilimenti Ferrero rispettano gli standard della Global Food Safety Initiative (GFSI), senza non conformità critiche segnalate negli audit 2022/23.</p>
+                                <p><b> Marketing etico:</b></p>
+                                <p>• Ferrero ha mantenuto un tasso di conformità del 98,59% per la pubblicità televisiva responsabile e del 100% per il marketing online.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 - Empowerment -->
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-front">
+                            <img src="immagini/empowerment.jpg" alt="Empowerment">
+                        </div>
+                        <div class="card-back">
+                            <div>
+                                <h3> Empowerment delle persone</h3>
+                                <p>L’impegno di Ferrero verso i propri dipendenti e le comunità locali si riflette nell'attenzione alla diversità, inclusione e sviluppo dei dipendenti:</p>
+                                <p><b> Diversità, equità e inclusione (DE&I):</b></p>
+                                <p>• Firmata la Diversity Charter Lëtzebuerg e introdotti obiettivi DE&I nel modello di retribuzione variabile per i dirigenti senior.</p>
+                                <p>• Organizzati eventi globali sulla diversità e inclusione che hanno coinvolto dipendenti in 34 paesi.</p>
+                                <p><b> Sviluppo dei dipendenti:</b></p>
+                                <p>• Oltre 140 sessioni di formazione erogate a più di 1.400 dipendenti.</p>
+                                <p>• Collaborazione con l’Università SDA Bocconi per offrire un Master in International Management, che include un modulo sulla sostenibilità.</p>
+                                <p><b> Salute e sicurezza:</b></p>
+                                <p>• Ridotto il tasso di infortuni con giorni persi (Lost-Day Injury Rate - LDIR) del 9% rispetto all'anno precedente.</p>
+                                <p><b> Coinvolgimento della comunità:</b></p>
+                                <p>• Il programma “Kinder Joy of Moving” ha promosso l'attività fisica tra 3,4 milioni di bambini in 34 paesi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Obiettivi 2030 -->
+    <section class="sustainability-section">
+        <div class="sustainability-container">
+            <h1>OBIETTIVI PER IL 2030:</h1>
+            <div class="content-wrapper">
+                <ul class="sustainability-text">
+                    <li>• Ridurre del 50% tutte le emissioni derivanti dalle nostre attività rispetto all'anno base del 2018.</li>
+                    <li>• Ridurre complessivamente le emissioni del 43% (emissioni dirette ed indirette) per ogni tonnellata di prodotto realizzato rispetto all'anno base del 2018.</li>
+                    <li>Il primo obiettivo riguarda tutte le emissioni dirette dagli stabilimenti, magazzini e dalla sede principale, inoltre prevede un percorso di riduzione graduale, in linea con l'obiettivo di limitare il riscaldamento globale a 1,5° C. Il secondo obiettivo coinvolge l'intera catena del valore ed include circa il 90% delle emissioni indirette terze.</li>
+                    <li>Sono state prese in considerazione le aree che contribuiscono maggiormente all'impronta ecologica del gruppo: gli ingredienti principali (derivati del latte, olio di palma, nocciole, zucchero, farina e cacao), la logistica a monte e le attività associate ai consumi energetici e di carburante.</li>
+                    <li>Questi fattori sono fuori da un controllo diretto ed è quindi difficile affrontarli. Tuttavia con la collaborazione dei fornitori, si riuscirà a trovare delle soluzioni al fine di raggiungere l'obiettivo che la Ferrero si è prefissato. Sono state definite delle roadmap che illustrano le attività previste per raggiungere il primo obiettivo, che riguarda le emissioni entro il 2030. Per il secondo obiettivo climatico, che coinvolge anche le emissioni indirette terze, si adotterà invece un approccio a più livelli che prevede collaborazioni con i fornitori per ridurre le emissioni, ripensando prodotti e soluzioni esistenti e sviluppandone di nuovi.</li>
+                    <li>L'impegno a disegnare tutti gli imballaggi in modo che siano 100% riutilizzabili, riciclabili o compostabili contribuirà al raggiungimento dell'obiettivo. In alcuni casi, si valuterà l'opportunità di dare precedenza ai fornitori in grado di assicurare bassi livelli di emissioni e la possibilità di integrare attività di investimento per ridurre le emissioni nelle filiere agricole.</li>
+                </ul>
+                <div class="sustainability-image">
+                    <img src="immagini/sustainability_image.jpeg" alt="Sustainability Ferrero">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
